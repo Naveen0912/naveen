@@ -6,10 +6,9 @@ public class Str {
 		String s= "java";
 		String s1="selenium";
 		
-		String temp=s;
-		String temp1=s1;
-		s1=temp;
-		s=temp1;
+		String temp=s1;
+		s1=s;
+		s=temp;
 		
 		System.out.println("s="+s);
 		System.out.println("s1="+s1);
